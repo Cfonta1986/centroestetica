@@ -31,7 +31,7 @@ interface ServicesSectionProps {
 const ServicesSection: React.FC<ServicesSectionProps> = ({ id }) => {
   const services = [
     {
-      imageSrc: "/imagenes/manicuria.jpg",
+      imageSrc: "/imagenes/uñas.jpg",
       title: "Manicuría Profesional",
       description: "Manos impecables con nuestros servicios de manicuría, esmaltado tradicional y semipermanente.",
     },

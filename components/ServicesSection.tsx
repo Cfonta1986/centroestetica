@@ -1,4 +1,3 @@
-
 import React from 'react';
 // StarIcon import is not used here but kept for consistency if it were.
 // import {StarIcon} from './IconComponents'; 
@@ -32,17 +31,17 @@ interface ServicesSectionProps {
 const ServicesSection: React.FC<ServicesSectionProps> = ({ id }) => {
   const services = [
     {
-      imageSrc: "https://picsum.photos/seed/manicure/400/300",
+      imageSrc: "/imagenes/manicuria.jpg",
       title: "Manicuría Profesional",
       description: "Manos impecables con nuestros servicios de manicuría, esmaltado tradicional y semipermanente.",
     },
     {
-      imageSrc: "https://picsum.photos/seed/waxing/400/300",
+      imageSrc: "/imagenes/depilacion.jpg",
       title: "Depilación Suave",
       description: "Sistemas de depilación efectivos y cuidadosos con tu piel, para resultados duraderos y suaves.",
     },
     {
-      imageSrc: "https://picsum.photos/seed/facial/400/300",
+      imageSrc: "/imagenes/facial.jpg",
       title: "Tratamientos Faciales",
       description: "Revitaliza tu piel con limpiezas profundas, hidratación y tratamientos específicos para cada necesidad.",
     },

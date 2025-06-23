@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface AboutSectionProps {
@@ -12,7 +11,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ id }) => {
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           <div className="lg:w-1/2">
             <img 
-              src="https://picsum.photos/seed/salonInterior/600/400" 
+              src="/imagenes/cosmetica.jpg" 
               alt="Interior del salón Lugar de Relax" 
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
               loading="lazy"

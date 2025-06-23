@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { InstagramIcon, WhatsAppIcon, MailIcon } from './IconComponents';
 
@@ -48,7 +47,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="border-t border-brand-secondary pt-8 text-center text-sm">
           <p>&copy; {currentYear} Lugar de Relax. Todos los derechos reservados.</p>
-          <p className="mt-1">Diseñado con <span className="text-red-500">❤</span> y mucho café.</p>
+          <p className="mt-1">Diseñado con <span className="text-red-500">❤</span> por <a href="https://cristianfontanini.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline hover:text-brand-accent">Cristian Fontanini</a>.</p>
         </div>
       </div>
     </footer>
